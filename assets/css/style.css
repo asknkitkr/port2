@@ -1,0 +1,57 @@
+:root {
+  --animate-delay: 0.2s;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica.ttf");
+}
+
+@font-face {
+  font-family: "Helvetica-Bold";
+  src: url("../fonts/Helvetica-Bold.ttf");
+}
+
+* {
+  color: #1e0d0c;
+}
+.a p {
+  color: #e5e5e5 !important;
+}
+
+.a span {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+
+.b,
+.b:hover,
+.b:focus {
+  color: #fff !important;
+}
+
+a,
+a:hover,
+a:focus {
+  color: #1e0d0c !important;
+}
+
+.bg-dark {
+  background-color: #1e0d0c !important;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.playfair {
+  font-family: "Playfair Display", serif;
+}
+
+.helvetica {
+  font-family: "Helvetica", sans-serif;
+}
+
+.helvetica-bold {
+  font-family: "Helvetica-Bold", sans-serif;
+}
